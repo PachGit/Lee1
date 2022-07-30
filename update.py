@@ -50,7 +50,7 @@ if os.environ.get('UPDATE_EVERYTHING_WHEN_RESTART', 'False').lower() == 'true':
     scall("pip install --upgrade " + ' '.join(packages), shell=True)
 ## Update Packages ----
 
-UPSTREAM_REPO = os.environ.get('UPSTREAM_REPO', "https://github.com/5MysterySD/Tele-LeechX")
+UPSTREAM_REPO = os.environ.get('UPSTREAM_REPO', "https://github.com/PachGit/Tele-LeechX")
 UPSTREAM_BRANCH = os.environ.get('UPSTREAM_BRANCH', "h-code")
 try:
     if len(UPSTREAM_REPO) == 0:
