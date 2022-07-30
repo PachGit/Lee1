@@ -210,7 +210,7 @@ DEF_IMDB_TEMPLATE = os.environ.get("IMDB_TEMPLATE", """<i><b>⚡𝐓𝐢𝐭𝐥
 """)
 
 #Telegraph Creds  >>>>>>>>>>>
-TGH_AUTHOR = os.environ.get("TGH_AUTHOR ", "ꪜꪖꪜꪖ)
+TGH_AUTHOR = os.environ.get("TGH_AUTHOR ", "ꪜꪖꪜꪖ")
 TGH_AUTHOR_URL = os.environ.get("TGH_AUTHOR_URL", "https://t.me/vava_tg")
 
 #Bot Command [Bot PM & Log Channel]  >>>>>>>>>>>
