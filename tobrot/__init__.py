@@ -46,7 +46,7 @@ except:
 
 dotenv.load_dotenv("config.env", override=True)
 
-UPDATES_CHANNEL = os.environ.get("UPDATES_CHANNEL", "<a href='https://t.me/vava_tg'><b>ꪜꪖꪜꪖ</b></a>")
+UPDATES_CHANNEL = os.environ.get("UPDATES_CHANNEL", "")
 LOG_FILE_NAME = f"{UPDATES_CHANNEL}Logs.txt"
 
 if os.path.exists(LOG_FILE_NAME):
@@ -212,6 +212,9 @@ DEF_IMDB_TEMPLATE = os.environ.get("IMDB_TEMPLATE", """<i><b>⚡𝐓𝐢𝐭𝐥
 #Telegraph Creds  >>>>>>>>>>>
 TGH_AUTHOR = os.environ.get("TGH_AUTHOR ", "ꪜꪖꪜꪖ")
 TGH_AUTHOR_URL = os.environ.get("TGH_AUTHOR_URL", "https://t.me/vava_tg")
+
+#Update Channel
+UPDATES_CHANNEL = os.environ.get("UPDATES_CHANNEL", "<a href='https://t.me/vava_tg'><b>ꪜꪖꪜꪖ</b></a>")
 
 #Bot Command [Bot PM & Log Channel]  >>>>>>>>>>>
 LEECH_LOG = os.environ.get("LEECH_LOG", "")
