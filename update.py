@@ -51,7 +51,7 @@ if os.environ.get('UPDATE_EVERYTHING_WHEN_RESTART', 'False').lower() == 'true':
 ## Update Packages ----
 
 UPSTREAM_REPO = os.environ.get('UPSTREAM_REPO', "https://github.com/PachGit/Tele-LeechX")
-UPSTREAM_BRANCH = os.environ.get('UPSTREAM_BRANCH', "h-code")
+UPSTREAM_BRANCH = os.environ.get('UPSTREAM_BRANCH', "master")
 try:
     if len(UPSTREAM_REPO) == 0:
        raise TypeError
