@@ -197,7 +197,17 @@ STRING_SESSION = os.environ.get("STRING_SESSION", "")
 #Bot Command [IMDB]  >>>>>>>>>>>
 CUSTOM_CAPTION = os.environ.get("CUSTOM_CAPTION", "")
 MAX_LIST_ELM = os.environ.get("MAX_LIST_ELM", None)
-DEF_IMDB_TEMPLATE = os.environ.get("IMDB_TEMPLATE", "")
+DEF_IMDB_TEMPLATE = os.environ.get("IMDB_TEMPLATE", """<i><b>⚡𝐓𝐢𝐭𝐥𝐞: </b> {title}
+<b>⚡𝐈𝐌𝐃𝐁 𝐑𝐚𝐭𝐢𝐧𝐠 :</b> <code>{rating} </code>
+<b>⚡𝐐𝐮𝐚𝐥𝐢𝐭𝐲:  </b>
+<b>⚡𝐑𝐞𝐥𝐞𝐚𝐬𝐞 𝐃𝐚𝐭𝐞: </b> {release_date}
+<b>⚡𝐆𝐞𝐧𝐫𝐞: </b>{genres}
+<b>⚡️𝐈𝐌𝐃𝐁: </b>{url}
+<b>⚡𝐋𝐚𝐧𝐠𝐮𝐚𝐠𝐞:  </b>{languages}
+<b>⚡𝐂𝐨𝐮𝐧𝐭𝐫𝐲: </b> {countries}
+<b>⚡𝐒𝐮𝐛𝐭𝐢𝐭𝐥𝐞𝐬: </b>
+<b>⚡𝐒𝐭𝐨𝐫𝐲 𝐋𝐢𝐧𝐞: </b><code>{plot}</code>
+""")
 
 #Telegraph Creds  >>>>>>>>>>>
 TGH_AUTHOR = os.environ.get("TGH_AUTHOR ", "ꪜꪖꪜꪖ)
