@@ -116,7 +116,7 @@ async def mediainfo(client, message):
 <pre>{out or 'Not Supported'}</pre>
 """
     LOGGER.info(out)
-    title = unquote(link.split('/')[-1]) if DIRECT_LINK else "FX Mediainfo"
+    title = unquote(link.split('/')[-1]) if DIRECT_LINK else "ꪜꪖꪜꪖ Mediainfo"
     tgh_link = post_to_telegraph_html(title, body_text)
 
     if TG_MEDIA:
