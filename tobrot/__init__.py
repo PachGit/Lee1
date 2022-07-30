@@ -200,8 +200,8 @@ MAX_LIST_ELM = os.environ.get("MAX_LIST_ELM", None)
 DEF_IMDB_TEMPLATE = os.environ.get("IMDB_TEMPLATE", "")
 
 #Telegraph Creds  >>>>>>>>>>>
-TGH_AUTHOR = os.environ.get("TGH_AUTHOR ", "Tele-LeechX")
-TGH_AUTHOR_URL = os.environ.get("TGH_AUTHOR_URL", "https://t.me/FXTorrentz")
+TGH_AUTHOR = os.environ.get("TGH_AUTHOR ", "ꪜꪖꪜꪖ)
+TGH_AUTHOR_URL = os.environ.get("TGH_AUTHOR_URL", "https://t.me/vava_tg")
 
 #Bot Command [Bot PM & Log Channel]  >>>>>>>>>>>
 LEECH_LOG = os.environ.get("LEECH_LOG", "")
