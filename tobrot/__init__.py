@@ -46,7 +46,7 @@ except:
 
 dotenv.load_dotenv("config.env", override=True)
 
-UPDATES_CHANNEL = os.environ.get("UPDATES_CHANNEL", "")
+UPDATES_CHANNEL = os.environ.get("UPDATES_CHANNEL", "<a href='https://t.me/vava_tg'><b>ꪜꪖꪜꪖ</b></a>")
 LOG_FILE_NAME = f"{UPDATES_CHANNEL}Logs.txt"
 
 if os.path.exists(LOG_FILE_NAME):
@@ -146,7 +146,7 @@ PYTDL_COMMAND = os.environ.get("PYTDL_COMMAND", "pytdl")
 GPYTDL_COMMAND = os.environ.get("GPYTDL_COMMAND", "gpytdl")
 
 #Bot Command [RClone]  >>>>>>>>>>>
-DESTINATION_FOLDER = os.environ.get("DESTINATION_FOLDER", "Tele-LeechX")
+DESTINATION_FOLDER = os.environ.get("DESTINATION_FOLDER", "LeechBot")
 INDEX_LINK = os.environ.get("INDEX_LINK", "")
 VIEW_LINK = os.environ.get("VIEW_LINK", True)
 GET_SIZE_G = os.environ.get("GET_SIZE_G", "getsize")
@@ -159,7 +159,7 @@ CANCEL_COMMAND_G = os.environ.get("CANCEL_COMMAND_G", "cancel")
 STATUS_COMMAND = os.environ.get("STATUS_COMMAND", "status")
 SAVE_THUMBNAIL = os.environ.get("SAVE_THUMBNAIL", "savethumb")
 CLEAR_THUMBNAIL = os.environ.get("CLEAR_THUMBNAIL", "clearthumb")
-UPLOAD_AS_DOC = os.environ.get("UPLOAD_AS_DOC", "False")
+UPLOAD_AS_DOC = os.environ.get("UPLOAD_AS_DOC", "True")
 LOG_COMMAND = os.environ.get("LOG_COMMAND", "log")
 STATS_COMMAND = os.environ.get("STATS_COMMAND", "stats")
 
